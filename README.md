@@ -1,5 +1,6 @@
 ## Titanium Web Proxy
 
+```bash
 				 Trigger
 				    |
 				    |
@@ -18,7 +19,7 @@
 	Cookies	  | 
 		  !
 	    return Json  
-		  
+```
 		  
 
 ## Titanium Web Proxy
