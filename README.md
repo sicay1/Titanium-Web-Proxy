@@ -1,5 +1,28 @@
 ## Titanium Web Proxy
 
+				 Trigger
+				    |
+				    |
+				    !
++---------+    Request    +-------------------+                 +----------------+
+|         +-------------> |                   |     Request     |                |
+|         |               | Transparent Proxy +---------------> | VietJetAir Web |
+|         |               |                   |                 |                |
+| Browser |               | 127.0.0.1         |                 | 127.0.0.1      |
+|         |               |                   |    Response     |                |
+|         |    Response   | 80                | <---------------+ 2366           |
+|         | <-------------+                   |                 |                |
++---------+       |       +-------------------+                 +----------------+
+	       if |
+    response body |
+	Cookies	  | 
+		  !
+	    return Json  
+		  
+		  
+
+## Titanium Web Proxy
+
 A lightweight HTTP(S) proxy server written in C#.
 
 <a href="https://ci.appveyor.com/project/justcoding121/titanium-web-proxy">![Build Status](https://ci.appveyor.com/api/projects/status/p5vvtbpx9yp250ol?svg=true)</a> [![Join the chat at https://gitter.im/Titanium-Web-Proxy/Lobby](https://badges.gitter.im/Titanium-Web-Proxy/Lobby.svg)](https://gitter.im/Titanium-Web-Proxy/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
