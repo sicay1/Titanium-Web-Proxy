@@ -9,9 +9,9 @@
 |         | 	  +-----> |                   |     Request     |                |
 |         |               | Transparent Proxy +---------------> | VietJetAir Web |
 |         +-------------> |                   |                 |                |
-| Browser |    Request    | 127.0.0.1         |                 |                |
-|         |               |                   |    Response     |                |
-|         |    Response   | 80                | <---------------+                |
+| Http    |   OnRequest   | 127.0.0.1         |                 |                |
+| Client  |               |                   |    Response     |                |
+|         |   OnResponse  | 80                | <---------------+                |
 |         | <-------------+                   |                 |                |
 +---------+       |       +-------------------+                 +----------------+
 	       if |
